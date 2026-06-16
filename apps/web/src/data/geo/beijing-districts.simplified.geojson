@@ -1,0 +1,310 @@
+{
+  "type": "FeatureCollection",
+  "name": "beijing_core_districts_simplified",
+  "metadata": {
+    "version": "2026-06-12",
+    "coordinateSystem": "GCJ-02",
+    "simplifiedFor": "web-preview",
+    "includedDistricts": [
+      "东城区",
+      "西城区",
+      "海淀区",
+      "朝阳区",
+      "丰台区"
+    ],
+    "source": "manual-simplified-prototype",
+    "notes": "Prototype shapes for five core Beijing districts in Jingmu Map web preview. They are for visual interaction only and are not legal or cartographic boundaries."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "adcode": "110101",
+        "name": "东城区",
+        "pinyin": "dongcheng",
+        "shortName": "东城",
+        "center": [
+          116.4164,
+          39.9289
+        ],
+        "labelPoint": [
+          116.4165,
+          39.9278
+        ],
+        "bbox": [
+          116.376,
+          39.884,
+          116.445,
+          39.974
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.379,
+              39.885
+            ],
+            [
+              116.422,
+              39.884
+            ],
+            [
+              116.445,
+              39.914
+            ],
+            [
+              116.442,
+              39.963
+            ],
+            [
+              116.405,
+              39.974
+            ],
+            [
+              116.376,
+              39.944
+            ],
+            [
+              116.379,
+              39.885
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adcode": "110102",
+        "name": "西城区",
+        "pinyin": "xicheng",
+        "shortName": "西城",
+        "center": [
+          116.3659,
+          39.9123
+        ],
+        "labelPoint": [
+          116.3635,
+          39.922
+        ],
+        "bbox": [
+          116.314,
+          39.879,
+          116.405,
+          39.982
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.318,
+              39.879
+            ],
+            [
+              116.379,
+              39.885
+            ],
+            [
+              116.376,
+              39.944
+            ],
+            [
+              116.405,
+              39.974
+            ],
+            [
+              116.352,
+              39.982
+            ],
+            [
+              116.314,
+              39.943
+            ],
+            [
+              116.318,
+              39.879
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adcode": "110108",
+        "name": "海淀区",
+        "pinyin": "haidian",
+        "shortName": "海淀",
+        "center": [
+          116.2985,
+          39.9593
+        ],
+        "labelPoint": [
+          116.282,
+          39.964
+        ],
+        "bbox": [
+          116.184,
+          39.932,
+          116.352,
+          40.101
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.196,
+              39.932
+            ],
+            [
+              116.314,
+              39.943
+            ],
+            [
+              116.352,
+              39.982
+            ],
+            [
+              116.338,
+              40.075
+            ],
+            [
+              116.246,
+              40.101
+            ],
+            [
+              116.184,
+              40.026
+            ],
+            [
+              116.196,
+              39.932
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adcode": "110105",
+        "name": "朝阳区",
+        "pinyin": "chaoyang",
+        "shortName": "朝阳",
+        "center": [
+          116.4864,
+          39.9215
+        ],
+        "labelPoint": [
+          116.506,
+          39.928
+        ],
+        "bbox": [
+          116.442,
+          39.884,
+          116.615,
+          40.055
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.445,
+              39.914
+            ],
+            [
+              116.548,
+              39.884
+            ],
+            [
+              116.615,
+              39.928
+            ],
+            [
+              116.606,
+              40.018
+            ],
+            [
+              116.512,
+              40.055
+            ],
+            [
+              116.442,
+              39.963
+            ],
+            [
+              116.445,
+              39.914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adcode": "110106",
+        "name": "丰台区",
+        "pinyin": "fengtai",
+        "shortName": "丰台",
+        "center": [
+          116.2867,
+          39.8585
+        ],
+        "labelPoint": [
+          116.286,
+          39.844
+        ],
+        "bbox": [
+          116.196,
+          39.761,
+          116.422,
+          39.885
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.196,
+              39.803
+            ],
+            [
+              116.318,
+              39.879
+            ],
+            [
+              116.379,
+              39.885
+            ],
+            [
+              116.422,
+              39.884
+            ],
+            [
+              116.401,
+              39.813
+            ],
+            [
+              116.285,
+              39.761
+            ],
+            [
+              116.196,
+              39.803
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "jingmu-map",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Jingmu Map monorepo",
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "sync:web-data": "node scripts/sync-web-data.mjs",
+    "dev:web": "pnpm run sync:web-data && pnpm --filter @jingmu/web dev:h5",
+    "build:web": "pnpm run sync:web-data && pnpm --filter @jingmu/web build:h5",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

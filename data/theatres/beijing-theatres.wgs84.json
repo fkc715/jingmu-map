@@ -1,0 +1,130 @@
+{
+  "version": "2026-06-12",
+  "coordinateSystem": "WGS84",
+  "sourcePolicy": {
+    "mapBoundary": "DataV.GeoAtlas: https://geo.datav.aliyun.com/areas_v3/bound/110000_full.json",
+    "notes": "Coordinates are stored as WGS84 [lng, lat] for ECharts geo/map rendering. Do not replace this file with BD-09 or GCJ-02 coordinates unless they are converted back to WGS84 first."
+  },
+  "theatres": [
+    {
+      "id": "national-centre-for-performing-arts",
+      "name": "国家大剧院",
+      "district": "西城区",
+      "address": "北京市西城区西长安街2号",
+      "value": [116.3833, 39.9089],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 14,
+      "intro": "国家级综合表演艺术中心，涵盖歌剧、音乐会、话剧、舞蹈等大型演出。",
+      "image": "",
+      "source": "WGS84 seed, verify with compliant coordinate source before production."
+    },
+    {
+      "id": "capital-theatre",
+      "name": "首都剧场",
+      "district": "东城区",
+      "address": "北京市东城区王府井大街22号",
+      "value": [116.4111, 39.9228],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 12,
+      "intro": "北京人民艺术剧院重要演出场所，以话剧演出和经典剧目闻名。",
+      "image": "",
+      "source": "WGS84 seed, verify with compliant coordinate source before production."
+    },
+    {
+      "id": "beijing-poly-theatre",
+      "name": "北京保利剧院",
+      "district": "东城区",
+      "address": "北京市东城区东直门南大街14号保利大厦",
+      "value": [116.4317, 39.9341],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 12,
+      "intro": "位于东四十条附近，承接音乐剧、舞剧、戏剧和音乐会等综合演出。",
+      "image": "https://bkimg.cdn.bcebos.com/pic/b17eca8065380cd7912357c23115ba345982b2b72bd8?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080",
+      "source": "WGS84 seed converted from corrected theatre location, verify before production."
+    },
+    {
+      "id": "tianqiao-performing-arts-center",
+      "name": "天桥艺术中心",
+      "district": "西城区",
+      "address": "北京市西城区天桥南大街9号",
+      "value": [116.3926, 39.8826],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 12,
+      "intro": "音乐剧、舞剧、戏剧等演出的重要场馆，适合记录大型商业演出。",
+      "image": "",
+      "source": "WGS84 seed, verify with compliant coordinate source before production."
+    },
+    {
+      "id": "beijing-comedy-theatre",
+      "name": "北京喜剧院",
+      "district": "东城区",
+      "address": "北京市东城区东安门大街64号",
+      "value": [116.4072, 39.9147],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 10,
+      "intro": "聚焦喜剧、话剧和小剧场演出的核心城区剧场。",
+      "image": "",
+      "source": "WGS84 seed, verify with compliant coordinate source before production."
+    },
+    {
+      "id": "beijing-concert-hall",
+      "name": "北京音乐厅",
+      "district": "西城区",
+      "address": "北京市西城区北新华街1号",
+      "value": [116.384, 39.9073],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 10,
+      "intro": "北京市中心老牌音乐厅，常有交响乐、室内乐和独奏音乐会。",
+      "image": "",
+      "source": "WGS84 seed, verify with compliant coordinate source before production."
+    },
+    {
+      "id": "mei-lanfang-grand-theatre",
+      "name": "梅兰芳大剧院",
+      "district": "西城区",
+      "address": "北京市西城区平安里西大街32号",
+      "value": [116.3721, 39.9321],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 10,
+      "intro": "以戏曲演出为重要特色，也承接综合舞台演出。",
+      "image": "",
+      "source": "WGS84 seed, verify with compliant coordinate source before production."
+    },
+    {
+      "id": "haidian-theatre",
+      "name": "海淀剧院",
+      "district": "海淀区",
+      "address": "北京市海淀区中关村大街28号",
+      "value": [116.3168, 39.9821],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 10,
+      "intro": "位于中关村区域，承接话剧、儿童剧、音乐剧等多类型演出。",
+      "image": "",
+      "source": "WGS84 seed, verify with compliant coordinate source before production."
+    },
+    {
+      "id": "century-theatre",
+      "name": "世纪剧院",
+      "district": "朝阳区",
+      "address": "北京市朝阳区亮马桥路40号",
+      "value": [116.4662, 39.9498],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 10,
+      "intro": "朝阳区重要综合演出场馆，常见舞剧、音乐会和商业演出。",
+      "image": "",
+      "source": "WGS84 seed, verify with compliant coordinate source before production."
+    },
+    {
+      "id": "fengtai-theatre",
+      "name": "丰台区文化馆剧场",
+      "district": "丰台区",
+      "address": "北京市丰台区西四环南路64号",
+      "value": [116.2867, 39.8636],
+      "sourceCoordinateSystem": "WGS84",
+      "size": 9,
+      "intro": "丰台区公共文化演出空间，可作为核心区剧院地图的丰台点位代表。",
+      "image": "",
+      "source": "WGS84 seed, verify with compliant coordinate source before production."
+    }
+  ]
+}

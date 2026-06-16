@@ -1,0 +1,20 @@
+.DS_Store
+node_modules/
+dist/
+build/
+.turbo/
+.cache/
+.temp/
+.env
+.env.*
+!.env.example
+
+# Taro
+.taro/
+apps/*/.swc/
+apps/*/dist/
+apps/*/.temp/
+
+# Local API data
+services/api/data/
+services/api/.cache/

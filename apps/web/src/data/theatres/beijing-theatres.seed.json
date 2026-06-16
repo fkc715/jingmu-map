@@ -1,0 +1,202 @@
+{
+  "version": "2026-06-12",
+  "coordinateSystem": "GCJ-02",
+  "sourcePolicy": {
+    "preferredSources": [
+      "official theatre websites",
+      "official public institution pages",
+      "licensed map geocoding for coordinates"
+    ],
+    "notes": "The first seed uses approximate GCJ-02 coordinates for prototype debugging. Verify every address and coordinate before production use."
+  },
+  "theatres": [
+    {
+      "id": "national-centre-for-performing-arts",
+      "name": {
+        "zh": "国家大剧院",
+        "en": "National Centre for the Performing Arts"
+      },
+      "aliases": [
+        "国家大剧院",
+        "NCPA"
+      ],
+      "district": {
+        "adcode": "110102",
+        "name": "西城区"
+      },
+      "address": {
+        "full": "北京市西城区西长安街2号",
+        "street": "西长安街2号"
+      },
+      "location": {
+        "lng": 116.3899,
+        "lat": 39.9032,
+        "precision": "approximate",
+        "source": "manual_geocoded"
+      },
+      "category": "performing_arts_center",
+      "genres": [
+        "opera",
+        "concert",
+        "drama",
+        "dance"
+      ],
+      "status": "active",
+      "personal": {
+        "visitedCount": 2,
+        "favorite": true,
+        "wantToGo": false,
+        "note": "综合演出密度高，适合作为大型剧目和音乐会的主入口。"
+      },
+      "halls": [
+        {
+          "name": "歌剧院",
+          "capacity": 2081
+        },
+        {
+          "name": "音乐厅",
+          "capacity": 1859
+        },
+        {
+          "name": "戏剧场",
+          "capacity": 957
+        },
+        {
+          "name": "小剧场",
+          "capacity": 469
+        }
+      ],
+      "display": {
+        "priority": 100,
+        "featured": true,
+        "color": "#9e2a2b"
+      },
+      "links": {
+        "official": "https://www.chncpa.org/"
+      },
+      "verification": {
+        "addressVerified": false,
+        "coordinateVerified": false,
+        "lastCheckedAt": "2026-06-12",
+        "notes": "示例坐标为近似值，正式入库前需复核。"
+      }
+    },
+    {
+      "id": "capital-theatre",
+      "name": {
+        "zh": "首都剧场",
+        "en": "Capital Theatre"
+      },
+      "aliases": [
+        "首都剧场",
+        "北京人艺首都剧场"
+      ],
+      "district": {
+        "adcode": "110101",
+        "name": "东城区"
+      },
+      "address": {
+        "full": "北京市东城区王府井大街22号",
+        "street": "王府井大街22号"
+      },
+      "location": {
+        "lng": 116.4107,
+        "lat": 39.923,
+        "precision": "approximate",
+        "source": "manual_geocoded"
+      },
+      "category": "theatre",
+      "genres": [
+        "drama"
+      ],
+      "status": "active",
+      "operator": "北京人民艺术剧院",
+      "personal": {
+        "visitedCount": 6,
+        "favorite": true,
+        "wantToGo": false,
+        "note": "二层中区视野比较稳。王府井散场人多，晚场结束后打车点建议往北走一段。"
+      },
+      "halls": [
+        {
+          "name": "首都剧场",
+          "capacity": 927
+        }
+      ],
+      "display": {
+        "priority": 90,
+        "featured": true,
+        "color": "#c8a45d"
+      },
+      "links": {
+        "official": "https://www.bjry.com/"
+      },
+      "verification": {
+        "addressVerified": false,
+        "coordinateVerified": false,
+        "lastCheckedAt": "2026-06-12",
+        "notes": "示例坐标为近似值，正式入库前需复核。"
+      }
+    },
+    {
+      "id": "beijing-poly-theatre",
+      "name": {
+        "zh": "北京保利剧院",
+        "en": "Beijing Poly Theatre"
+      },
+      "aliases": [
+        "保利剧院",
+        "北京保利剧院"
+      ],
+      "district": {
+        "adcode": "110101",
+        "name": "东城区"
+      },
+      "address": {
+        "full": "北京市东城区东直门南大街14号保利大厦7号门",
+        "street": "东直门南大街14号"
+      },
+      "location": {
+        "lng": 116.4346,
+        "lat": 39.9336,
+        "precision": "approximate",
+        "source": "manual_corrected"
+      },
+      "category": "theatre",
+      "genres": [
+        "concert",
+        "musical",
+        "opera",
+        "dance",
+        "drama"
+      ],
+      "status": "active",
+      "personal": {
+        "visitedCount": 3,
+        "favorite": false,
+        "wantToGo": true,
+        "note": "东四十条附近交通方便，适合记录音乐剧、舞剧和大型巡演。"
+      },
+      "halls": [
+        {
+          "name": "观众厅",
+          "capacity": 1500
+        }
+      ],
+      "display": {
+        "priority": 80,
+        "featured": false,
+        "color": "#233849"
+      },
+      "links": {
+        "official": "https://www.polytheatre.com/"
+      },
+      "verification": {
+        "addressVerified": false,
+        "coordinateVerified": false,
+        "lastCheckedAt": "2026-06-12",
+        "notes": "已按东直门南大街14号保利大厦位置修正为更靠近东四十条/保利大厦的近似 GCJ-02 点位，正式入库前仍需用合规地图服务复核。"
+      }
+    }
+  ]
+}
